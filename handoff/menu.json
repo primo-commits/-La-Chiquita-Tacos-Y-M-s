@@ -1,0 +1,371 @@
+{
+  "business": {
+    "name": "La Chiquita Tacos Y Más",
+    "address": "232 Gauvin Rd, Dieppe, NB E1A 1M1, Canada",
+    "phone": "(647) 804-3909",
+    "instagram": "https://www.instagram.com/cheekytacosnb/",
+    "doordash": "https://www.doordash.com/store/la-chiquita-tacos-y-mas---232-gauvin-rd-dieppe-33367567/",
+    "ubereats": "https://www.ubereats.com/ca/store/la-chiquita-tacos-y-mas/GQajnP_QWLmP82k4YOs7yw",
+    "google_rating": 4.8,
+    "sales_tax": "15% HST (New Brunswick)",
+    "currency": "CAD",
+    "typical_prep_minutes": 20,
+    "hours": {
+      "Sunday": "Closed",
+      "Monday": "Closed",
+      "Tuesday": "Closed",
+      "Wednesday": "Closed",
+      "Thursday": "10:00-18:00",
+      "Friday": "10:00-18:00",
+      "Saturday": "8:00-13:00"
+    }
+  },
+  "menu": [
+    {
+      "id": "birria",
+      "category": "Tacos & Birria",
+      "category_fr": "Tacos et birria",
+      "name": "Birria Tacos (4) with Consommé",
+      "name_fr": "Tacos birria (4) avec consommé",
+      "description": "Slow-braised birria folded into griddle-crisped corn tortillas with cheese, onion and cilantro. Served with rich consommé for dipping.",
+      "description_fr": "Birria mijotée longuement dans des tortillas de maïs dorées sur la plaque, avec fromage, oignon et coriandre. Servi avec un consommé riche pour tremper.",
+      "price_cad": 19.55,
+      "popular": true,
+      "photo": "images/menu/Birria-Tacos.jpg",
+      "options": []
+    },
+    {
+      "id": "mixmatch",
+      "category": "Tacos & Birria",
+      "category_fr": "Tacos et birria",
+      "name": "Mix & Match — Any 4 Tacos",
+      "name_fr": "Mix & match — 4 tacos au choix",
+      "description": "Build your own plate: choose any four tacos from our lineup.",
+      "description_fr": "Composez votre assiette : choisissez quatre tacos parmi notre sélection.",
+      "price_cad": 19.55,
+      "popular": true,
+      "photo": "images/menu/Mix-and-Match-Tacos.jpg",
+      "options": [
+        {
+          "group": "Taco 1",
+          "group_fr": "Taco 1",
+          "required": true,
+          "choices": [
+            {
+              "name": "Birria",
+              "name_fr": "Birria"
+            },
+            {
+              "name": "Al pastor",
+              "name_fr": "Al pastor"
+            },
+            {
+              "name": "Pulled chicken",
+              "name_fr": "Poulet effiloché"
+            },
+            {
+              "name": "Pulled pork",
+              "name_fr": "Porc effiloché"
+            }
+          ]
+        },
+        {
+          "group": "Taco 2",
+          "group_fr": "Taco 2",
+          "required": true,
+          "choices": [
+            {
+              "name": "Birria",
+              "name_fr": "Birria"
+            },
+            {
+              "name": "Al pastor",
+              "name_fr": "Al pastor"
+            },
+            {
+              "name": "Pulled chicken",
+              "name_fr": "Poulet effiloché"
+            },
+            {
+              "name": "Pulled pork",
+              "name_fr": "Porc effiloché"
+            }
+          ]
+        },
+        {
+          "group": "Taco 3",
+          "group_fr": "Taco 3",
+          "required": true,
+          "choices": [
+            {
+              "name": "Birria",
+              "name_fr": "Birria"
+            },
+            {
+              "name": "Al pastor",
+              "name_fr": "Al pastor"
+            },
+            {
+              "name": "Pulled chicken",
+              "name_fr": "Poulet effiloché"
+            },
+            {
+              "name": "Pulled pork",
+              "name_fr": "Porc effiloché"
+            }
+          ]
+        },
+        {
+          "group": "Taco 4",
+          "group_fr": "Taco 4",
+          "required": true,
+          "choices": [
+            {
+              "name": "Birria",
+              "name_fr": "Birria"
+            },
+            {
+              "name": "Al pastor",
+              "name_fr": "Al pastor"
+            },
+            {
+              "name": "Pulled chicken",
+              "name_fr": "Poulet effiloché"
+            },
+            {
+              "name": "Pulled pork",
+              "name_fr": "Porc effiloché"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "combo",
+      "category": "Tacos & Birria",
+      "category_fr": "Tacos et birria",
+      "name": "Combination of All 4",
+      "name_fr": "Combinaison des 4",
+      "description": "One of each taco — birria, al pastor, pulled chicken and pulled pork — served with consommé.",
+      "description_fr": "Un taco de chaque sorte — birria, al pastor, poulet et porc effilochés — servi avec consommé.",
+      "price_cad": 19.55,
+      "popular": false,
+      "photo": "images/menu/Combination-Tacos.jpg",
+      "options": []
+    },
+    {
+      "id": "ramen",
+      "category": "Tacos & Birria",
+      "category_fr": "Tacos et birria",
+      "name": "Birria Ramen",
+      "name_fr": "Ramen birria",
+      "description": "Ramen noodles in birria consommé with tender birria, onion, cilantro and lime.",
+      "description_fr": "Nouilles ramen dans le consommé de birria, avec birria tendre, oignon, coriandre et lime.",
+      "price_cad": 18.4,
+      "popular": false,
+      "photo": null,
+      "options": []
+    },
+    {
+      "id": "breakfast-taco",
+      "category": "Breakfast",
+      "category_fr": "Déjeuner",
+      "name": "Texas-Style Breakfast Taco",
+      "name_fr": "Taco déjeuner style Texas",
+      "description": "Bacon or chorizo (homemade Mexican sausage), eggs, potato, cheese and refried beans on a flour tortilla.",
+      "description_fr": "Bacon ou chorizo (saucisse mexicaine maison), œufs, pommes de terre, fromage et haricots frits sur tortilla de farine.",
+      "price_cad": 8,
+      "popular": false,
+      "photo": "images/menu/Texas-Style-Breakfast-Taco.jpg",
+      "options": [
+        {
+          "group": "Choose your meat",
+          "group_fr": "Choix de viande",
+          "required": true,
+          "choices": [
+            {
+              "name": "Bacon",
+              "name_fr": "Bacon"
+            },
+            {
+              "name": "Chorizo",
+              "name_fr": "Chorizo"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gringa",
+      "category": "Specialties",
+      "category_fr": "Spécialités",
+      "name": "Gringa (Quesadilla on Flour Tortilla)",
+      "name_fr": "Gringa (quesadilla sur tortilla de farine)",
+      "description": "Al pastor (adobo-marinated pork) with pineapple, cheese, cilantro and onion.",
+      "description_fr": "Porc al pastor mariné à l’adobo avec ananas, fromage, coriandre et oignon.",
+      "price_cad": 10.35,
+      "popular": false,
+      "photo": "images/menu/Gringa-(Quesadilla-with-Flour-Tortilla).jpg",
+      "options": []
+    },
+    {
+      "id": "patacon",
+      "category": "Specialties",
+      "category_fr": "Spécialités",
+      "name": "Patacón (2 pcs)",
+      "name_fr": "Patacón (2 mcx)",
+      "description": "Fried and smashed green plantains topped with pulled chicken, pulled pork or both, pickled onions, cilantro, onion, crema and house sauce.",
+      "description_fr": "Plantains verts frits et écrasés, garnis de poulet effiloché, de porc effiloché ou des deux, oignons marinés, coriandre, oignon, crème et sauce maison.",
+      "price_cad": 16.1,
+      "popular": true,
+      "photo": "images/menu/Patacon(2-Pcs).jpg",
+      "options": [
+        {
+          "group": "Choose your topping",
+          "group_fr": "Choix de garniture",
+          "required": true,
+          "choices": [
+            {
+              "name": "Pulled chicken",
+              "name_fr": "Poulet effiloché"
+            },
+            {
+              "name": "Pulled pork",
+              "name_fr": "Porc effiloché"
+            },
+            {
+              "name": "Mix & match",
+              "name_fr": "Moitié-moitié"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nachos",
+      "category": "Specialties",
+      "category_fr": "Spécialités",
+      "name": "Nachos",
+      "name_fr": "Nachos",
+      "description": "Homemade tortilla chips topped with refried beans, chorizo, cheese, cilantro, onion and Mexican crema.",
+      "description_fr": "Croustilles de maïs maison garnies de haricots frits, chorizo, fromage, coriandre, oignon et crème mexicaine.",
+      "price_cad": 17.25,
+      "popular": false,
+      "photo": "images/menu/Nachos.jpg",
+      "options": []
+    },
+    {
+      "id": "chilaquiles",
+      "category": "Specialties",
+      "category_fr": "Spécialités",
+      "name": "Chilaquiles",
+      "name_fr": "Chilaquiles",
+      "description": "Homemade tortilla chips simmered in a warm sauce — red (spicy) or green (mild) — topped with cheese, cilantro, onion and Mexican crema.",
+      "description_fr": "Croustilles de maïs maison mijotées dans une sauce chaude — rouge (piquante) ou verte (douce) — garnies de fromage, coriandre, oignon et crème mexicaine.",
+      "price_cad": 13.8,
+      "popular": false,
+      "photo": "images/menu/Chilaquiles.jpg",
+      "options": [
+        {
+          "group": "Choose your sauce",
+          "group_fr": "Choix de sauce",
+          "required": true,
+          "choices": [
+            {
+              "name": "Red (spicy)",
+              "name_fr": "Rouge (piquante)"
+            },
+            {
+              "name": "Green (mild)",
+              "name_fr": "Verte (douce)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "enchiladas",
+      "category": "Specialties",
+      "category_fr": "Spécialités",
+      "name": "Enchiladas",
+      "name_fr": "Enchiladas",
+      "description": "Corn tortillas filled with chicken or cheese in a mild green sauce, topped with cheese, cilantro, onion and Mexican crema.",
+      "description_fr": "Tortillas de maïs farcies au poulet ou au fromage, nappées d’une sauce verte douce, garnies de fromage, coriandre, oignon et crème mexicaine.",
+      "price_cad": 18.4,
+      "popular": false,
+      "photo": "images/menu/Enchiladas.jpg",
+      "options": [
+        {
+          "group": "Choose your filling",
+          "group_fr": "Choix de farce",
+          "required": true,
+          "choices": [
+            {
+              "name": "Chicken",
+              "name_fr": "Poulet"
+            },
+            {
+              "name": "Cheese",
+              "name_fr": "Fromage"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "empanada",
+      "category": "Sides & Snacks",
+      "category_fr": "Accompagnements",
+      "name": "Colombian Empanada",
+      "name_fr": "Empanada colombienne",
+      "description": "Crispy corn-flour turnover filled with beef or chicken, potato, tomato and onion, served with our house ají.",
+      "description_fr": "Chausson croustillant à la farine de maïs, farci au bœuf ou au poulet, pommes de terre, tomate et oignon, servi avec notre ají maison.",
+      "price_cad": 3.45,
+      "popular": true,
+      "photo": "images/menu/Colombian-Empanadas.jpg",
+      "options": [
+        {
+          "group": "Choose your filling",
+          "group_fr": "Choix de farce",
+          "required": true,
+          "choices": [
+            {
+              "name": "Beef",
+              "name_fr": "Bœuf"
+            },
+            {
+              "name": "Chicken",
+              "name_fr": "Poulet"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tequenos",
+      "category": "Sides & Snacks",
+      "category_fr": "Accompagnements",
+      "name": "Tequeños (4 pcs)",
+      "name_fr": "Tequeños (4 mcx)",
+      "description": "Venezuelan cheese sticks — golden pastry wrapped around melted cheese, served with salsa rosa and house sauce.",
+      "description_fr": "Bâtonnets au fromage vénézuéliens — pâte dorée enroulée autour de fromage fondant, servis avec salsa rosa et sauce maison.",
+      "price_cad": 9.2,
+      "popular": false,
+      "photo": "images/menu/Tequenos-(Venezuelan-Cheese-Sticks-4pcs).jpg",
+      "options": []
+    },
+    {
+      "id": "churros",
+      "category": "Desserts",
+      "category_fr": "Desserts",
+      "name": "Churros (4 pcs)",
+      "name_fr": "Churros (4 mcx)",
+      "description": "Fried dough tossed in cinnamon sugar, served with homemade chocolate sauce.",
+      "description_fr": "Pâte frite roulée dans le sucre à la cannelle, servie avec sauce au chocolat maison.",
+      "price_cad": 6.75,
+      "popular": false,
+      "photo": "images/menu/Churros(4-Pcs).jpg",
+      "options": []
+    }
+  ]
+}
