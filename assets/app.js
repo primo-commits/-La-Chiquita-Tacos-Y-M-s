@@ -836,6 +836,7 @@
     reel.i = (i + clips.length) % clips.length;
     const c = clips[reel.i], v = reel.video;
     v.poster = asset(c.poster); v.src = asset(c.src);
+    v.defaultPlaybackRate = v.playbackRate = c.rate || 1;
     if (!reel.paused) v.play().catch(() => {});
     const bg = $('#heroBg'); if (bg) bg.style.backgroundImage = `url('${asset(c.poster)}')`;
     const cap = $('#reelCaption'); if (cap) cap.textContent = L(c);

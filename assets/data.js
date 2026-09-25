@@ -144,9 +144,10 @@ LC.MENU = [
   },
 ];
 
+// rate: playback speed per clip (1 = normal; 0.7 = 30% slower)
 LC.HERO_CLIPS = [
   { src: 'public/video/video4.mp4', poster: 'public/images/stills/poster4.jpg', en: 'Dip & sip the consommé', fr: 'Trempez dans le consommé' },
-  { src: 'public/video/video3.mp4', poster: 'public/images/stills/poster3.jpg', en: 'Quesabirria on the griddle', fr: 'Quesabirria sur la plaque' },
+  { src: 'public/video/video3.mp4', poster: 'public/images/stills/poster3.jpg', rate: 0.7, en: 'Quesabirria on the griddle', fr: 'Quesabirria sur la plaque' },
   { src: 'public/video/video2.mp4', poster: 'public/images/stills/poster2.jpg', en: 'Ají for our empanadas', fr: 'Ají pour nos empanadas' },
   { src: 'public/video/video1.mp4', poster: 'public/images/stills/poster1.jpg', en: 'House-made hot sauce', fr: 'Sauce piquante maison' },
 ];
